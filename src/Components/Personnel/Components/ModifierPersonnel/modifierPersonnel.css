@@ -1,0 +1,35 @@
+.modifier-personnel{
+    width: 100%;
+    margin: 50px 50px 0 250px;
+    background-color: #2b597e;
+    border-radius: 10px;
+    height:280px ;
+    box-shadow: -3px 0 50px rgb(202, 190, 190);
+    color: #fff;
+}
+
+.form-content{
+    padding: 30px 0 0 80px;
+}
+.form-item{
+    margin: 15px;
+}
+#btn-mo{
+    border:#2b597e;
+    padding: 6px;
+    background-color: #bfd3eb;
+    margin-left: 13px;
+    border-radius: 2px;
+}
+
+#btn-mo:hover{
+    background-color: #f7fdc6;
+    cursor: pointer;
+}
+.modifier-personnel input {
+    width: 230px;
+    border: #5d7599 solid 2px;
+    border-radius: 5px;
+    height: 25px;
+
+}

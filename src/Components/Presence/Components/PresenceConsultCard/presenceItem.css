@@ -1,0 +1,127 @@
+.presence-item{
+    display: flex;
+    background-color: #fff;
+    border:#222f3e solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 1;
+}
+.presence-item-sup{
+    display: flex;
+    background-color: rgb(247, 187, 187);
+    border:#222f3e solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 1;
+    color:#9b6262;
+}
+
+
+ #id{
+    padding-left: 10px;
+    width:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ #nom-prenom{
+    width:170px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+ #cin{
+    width:80px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+ #heure_entree {
+    width:190px;
+    display: flex;
+    align-items: center;
+}
+
+ #date_entree {
+    width:120px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#nb_heures {
+    width:130px;
+    display: flex;
+    align-items: center;
+}
+ #btn-del{
+    display: flex;
+    align-items: center;
+    margin: 15px  0 15px 50px;
+
+}
+
+ #img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    margin-left:10px;
+}
+
+.linkStyle {
+    text-decoration: none;
+}
+
+
+ #btn-del{
+    background-color: #858277;
+    color:#342526 ;
+    border-radius: 7%;
+    text-decoration: none;
+    margin: 10px;
+    padding: 9px;
+    box-shadow: 0px 0 10px rgb(134, 128, 128);
+}
+
+
+#btn-del:hover{
+    cursor: pointer;
+    background-color:#b4b3b0;
+}
+
+.custom_ui{
+    margin:40px 0 0 600px;
+    background-color: rgb(224, 224, 224);
+    position: fixed;
+    padding: 15px;
+}
+
+#btn-no{
+    margin-left: 270px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(138, 11, 11);
+    color: #fff;
+}
+#btn-no:hover{
+    cursor: pointer;
+    background-color:rgb(255, 0, 0);
+}
+#btn-conf{
+    border: none;
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    padding: 5px;
+}
+#btn-conf:hover{
+    cursor:pointer;
+    background-color:rgb(134, 42, 42);
+}
+#non-dispo{
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+}

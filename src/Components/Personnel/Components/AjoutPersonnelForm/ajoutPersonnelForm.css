@@ -1,0 +1,52 @@
+.ajout-personnel-form{
+    margin: 50px 0 0 250px;
+    background-color: #f7fdc6;
+    padding:  20px;
+    height: 400px;
+    box-shadow: -3px 0 100px rgb(180, 160, 160);
+}
+
+.form{
+    display: flex;
+}
+.form-left{  
+    padding:20px 130px 50px 30px;
+    background-color: #f7fdc6;
+}
+.form-middle{
+    padding:20px 130px 50px 30px;
+    background-color: #fff;
+}
+
+.ajout-personnel-form input{
+    width: 230px;
+    border: #5d7599 solid 2px;
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+#item {
+    padding: 0;
+}
+#txt{
+    margin:6px;
+    font-size: large;
+}
+#top-form{
+    padding-bottom: 10px;
+    font-size:120%;
+}
+#btn-ajout{
+    background-color: #708a81;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    border: #708a81;
+    margin:10px 0 0 650px;
+    text-align:right;
+    color:#fff
+}
+
+#btn-ajout:hover{
+    background-color: #3e5f54;
+}

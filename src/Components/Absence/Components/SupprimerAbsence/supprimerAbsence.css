@@ -1,0 +1,16 @@
+.supprimer-presence{
+    height: 60px;
+    margin: 30px 230px 0 530px;
+    padding: 30px;
+    background-color: #2b2129;
+    color:#cfcbd2;
+}
+
+#txt-del{
+    margin: 5px 10px 20px 10px; 
+    font-weight: bold ;
+}
+
+.supprimer-presence >button{
+    margin:10px;
+}

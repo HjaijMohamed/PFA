@@ -1,0 +1,30 @@
+.conge{
+    width: 100%;
+    margin:10px 90px 90px 290px;
+}
+.conge .list-header{
+    display:flex;
+    background-color: #708a81;
+    border-radius: 5px;
+    justify-content: start;
+    padding: 13px;
+    color:#fff;
+    font-family: Helvetica;
+    margin :7px;
+    box-shadow: #222f3e -5px 5px  10px;
+}
+.conge .list-header2{
+display:flex;
+background-color: #708a81;
+border-radius: 5px;
+padding: 13px;
+color:#fff;
+font-family: Helvetica;
+margin :7px 7px 25px 7px;
+box-shadow: #222f3e -5px 5px  10px;
+}
+
+.conge .list-header2>div {
+    width:160px;
+}
+

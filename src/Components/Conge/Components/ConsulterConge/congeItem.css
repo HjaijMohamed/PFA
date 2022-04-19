@@ -1,0 +1,77 @@
+.conge-item{
+    display: flex;
+    background-color: #fff;
+    border:#365b86 solid 1px;
+    border-radius: 5px;
+}
+
+.conge-item #id{
+    padding-left: 10px;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conge-item #cin{
+    width:150px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.conge-item #date_debut {
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+
+.conge-item #date_fin{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+
+.conge-item #nom-prenom{
+    width:170px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+    margin-left: 10px;;
+}
+
+.conge-item #img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    margin-left:10px;
+}
+
+.conge-item #btn-del{
+    display: flex;
+    align-items: center;
+    margin: 15px  0 15px 50px;
+
+}
+
+.linkStyle {
+    text-decoration: none;
+}
+
+
+.conge-item #btn-del{
+    background-color: #6a6699;
+    color:#342526 ;
+    border-radius: 7%;
+    text-decoration: none;
+    margin: 10px;
+    padding: 9px;
+    box-shadow: 0px 0 10px #6a6699;
+}
+
+
+.conge-item #btn-del:hover{
+    cursor: pointer;
+    background-color:#6f7e99;
+}

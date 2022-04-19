@@ -1,0 +1,36 @@
+.sidebar{
+    /*background-color:#222f3e;*/
+    background-color:#314059;
+    color: #fff;
+    font-size:130%;
+    font-family: Courier;
+    width:190px;
+    height :100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.title{
+    padding:30px;
+    background-color:#576574;
+    border-bottom: solid  #fff 3px;
+    font-weight: bold;
+}
+
+.options{
+    padding:22px 30px 22px 30px;
+    border-bottom: solid  #fff 1px;
+    /*background: linear-gradient(to left, #222f3e 50%, #fff 50%) right;*/
+    background: linear-gradient(to left, #314059 50%, #b5c9e2 50%) right;
+    background-size: 200%;
+    transition: .2s ease-out;
+}
+ .options:hover{
+    cursor:pointer;
+    background-position: left;
+    color:#314059;
+ }
+ 
+ .linkStyle {
+    text-decoration: none;
+}

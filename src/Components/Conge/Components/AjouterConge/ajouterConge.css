@@ -1,0 +1,44 @@
+.ajout-conge{
+    margin: 40px  ;
+    background-color: #708a81;
+    border-radius: 5px;
+}
+.form-ajout{
+    display: flex;
+}
+#form-ajout-item{
+    margin:5px 40px 0 40px;
+    color:aliceblue
+}
+
+.ajout-conge input{
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border:none;
+}
+.ajout-conge #txt{
+    margin-bottom:5px;
+}
+
+.ajout-conge #btn{
+    margin:30px 40px 20px 30px;
+    padding: 5px 20px 5px 20px ;
+    height: 40px;
+    border-radius: 5px;
+    border: #ece0d1 solid 2px;
+    background-color: #70738a;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.ajout-conge #btn:hover{
+    background-color:rgb(85, 97, 136) ;
+    color:#FFF;
+}
+.ajout-conge #message{
+    color:#FFF;
+    font-weight: bold;
+    padding-left:  40px;
+    height: 30px;
+}

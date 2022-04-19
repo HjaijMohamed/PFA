@@ -1,0 +1,41 @@
+.gerer-personnel{
+    margin-left: 190px;
+    width: 100%;
+}
+
+
+.linkStyle {
+    text-decoration: none;
+    
+}
+
+.header-personnel{
+    display: flex;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-right:40px;
+    padding-top: 20px;
+    padding-left:5px;
+    
+}
+.header-personnel #personnel{
+    font-size: 160%;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#personnel-ajout{
+    color: #fff;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #5d7599;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0 10px rgb(134, 128, 128);
+}
+#personnel-ajout:hover{
+    background-color: #2b597e;  
+    cursor: pointer; 
+}
+
+
+

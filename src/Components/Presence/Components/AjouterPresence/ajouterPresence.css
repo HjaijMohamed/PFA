@@ -1,0 +1,44 @@
+.ajout-presence{
+    margin: 40px  ;
+    background-color: #2b2129;
+    border-radius: 5px;
+}
+.form-ajout{
+    display: flex;
+}
+#form-ajout-item{
+    margin:5px 40px 0 40px;
+    color:aliceblue
+}
+
+.ajout-presence input{
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border:none;
+}
+.ajout-presence #txt{
+    margin-bottom:5px;
+}
+
+.ajout-presence #btn{
+    margin:30px 40px 20px 30px;
+    padding: 5px 20px 5px 20px ;
+    height: 40px;
+    border-radius: 5px;
+    border: #ece0d1 solid 2px;
+    background-color: #708a81;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.ajout-presence #btn:hover{
+    background-color:rgb(78, 52, 52) ;
+    color:#FFF;
+}
+.ajout-presence #message{
+    color:#FFF;
+    font-weight: bold;
+    padding-left:  40px;
+    height: 30px;
+}
