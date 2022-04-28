@@ -1,3 +1,49 @@
-.conge-consult-card{
-    margin:40px;
+.congeConsultCard-content{
+    margin: 40px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: -3px 0 100px rgb(173, 166, 166);
+    
+}
+
+.congeItem-content3{
+    display:flex;
+    background-color: rgb(59, 71, 60);
+    color: #ffffff;;
+    font-family: Helvetica;
+    font-weight: 120%;
+    padding: 10px 0 10px 0;
+    font-size:small;
+   
+}
+
+
+.congeItem-content3 #cinc{
+    width:160px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.congeItem-content3 #imgc{
+    margin-right:80px;
+}
+
+.congeItem-content3 #nom-prenomc{
+    width:170px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+    margin-left: 10px;
+}
+
+.congeItem-content3 #date_debc{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+.congeItem-content3 #date_finc{
+    width:200px;
+    display: flex;
+    align-items: center;
 }

@@ -1,8 +1,13 @@
+#impairPresence{
+    background-color:#e9d9d9;
+}
+#pairPresence{
+    background-color:#fff;
+}
+
 .presence-item{
     display: flex;
     background-color: #fff;
-    border:#222f3e solid 1px;
-    border-radius: 5px;
     padding: 2px;
     z-index: 1;
 }
@@ -17,14 +22,6 @@
 }
 
 
- #id{
-    padding-left: 10px;
-    width:60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
  #nom-prenom{
     width:170px;
     display: flex;
@@ -32,7 +29,7 @@
     margin-left:30px;
 }
  #cin{
-    width:80px;
+    width:100px;
     display: flex;
     align-items: center;
     margin-left:30px;
@@ -45,17 +42,12 @@
 }
 
  #date_entree {
-    width:120px;
+    width:190px;
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
 
-#nb_heures {
-    width:130px;
-    display: flex;
-    align-items: center;
-}
  #btn-del{
     display: flex;
     align-items: center;
@@ -67,14 +59,9 @@
     width:50px;
     height: 50px;
     border-radius: 50%;
-    border: #fff solid 2px;
-    margin-left:10px;
+    border: rgb(0, 0, 0) solid 2px;
+    margin:2px 70px 0 10px;
 }
-
-.linkStyle {
-    text-decoration: none;
-}
-
 
  #btn-del{
     background-color: #858277;
@@ -99,17 +86,6 @@
     padding: 15px;
 }
 
-#btn-no{
-    margin-left: 270px;
-    border: none;
-    border-radius: 5px;
-    background-color:rgb(138, 11, 11);
-    color: #fff;
-}
-#btn-no:hover{
-    cursor: pointer;
-    background-color:rgb(255, 0, 0);
-}
 #btn-conf{
     border: none;
     background-color:rgb(0, 0, 0);
@@ -119,9 +95,4 @@
 #btn-conf:hover{
     cursor:pointer;
     background-color:rgb(134, 42, 42);
-}
-#non-dispo{
-    margin-top: 10px;
-    width: 120px;
-    height: 50px;
 }

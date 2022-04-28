@@ -111,13 +111,13 @@
 
 .personnelItem-content3{
     display:flex;
-    background-color: #fff;
-    color: #b9b9bb;;
+    background-color: rgb(59, 60, 71);
+    color: #ffffff;;
     font-family: Helvetica;
     font-weight: 120%;
-    margin:0 40px 10px 2px;
-    padding: 5px;
+    padding: 10px;
     font-size:small;
+   
 }
 
 .personnelItem-content3 >div{

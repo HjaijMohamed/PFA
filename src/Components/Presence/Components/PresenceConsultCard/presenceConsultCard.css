@@ -1,3 +1,49 @@
+
+
 .presence-consult-card{
-    margin:40px;    
+    display:flex;
+    background-color: rgb(71, 59, 59);
+    color: #ffffff;;
+    font-family: Helvetica;
+    font-weight: 120%;
+    padding: 10px;
+    font-size:small;
+   
+}
+
+.presence-consult-card #cint{
+    width:100px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.presence-consult-card #imgt{
+    margin:2px 70px 0 10px;
+}
+.presence-consult-card #nom-prenomt{
+    width:170px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+.presence-consult-card #heure_entreet {
+    width:190px;
+    display: flex;
+    align-items: center;
+}
+
+.presence-consult-card #date_entreet {
+    width:190px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.presencelConsultCard-content{
+    margin: 40px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: -3px 0 100px rgb(173, 166, 166);
+    
 }
