@@ -1,7 +1,7 @@
 .presences-card{
     display:flex;
     background-color: #aac9ce;
-    padding: 1px 10px 1px 20px;
+    padding: 1px 10px 1px 7px;
     color: black;
     font-family: Helvetica;
     align-items: center;
@@ -11,18 +11,37 @@
     border-radius: 5px;
     
 }
-.presences-card >div {
-    width:180px;
-}
-.presences-card #img{
+
+.presences-card #imgpr{
     width:50px;
     height: 50px;
     border-radius: 50%;
     border: #222f3e solid 2px;
+    margin:2px 100px 0 0;
     
 }
 
 .presences-card:hover{
     cursor: pointer;
     background-color: #54a0ff;
+}
+
+
+.presences-card #cinpr{
+    width:100px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.presences-card #nom-prenompr{
+    width:200px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+.presences-card #heure_entreepr {
+    width:190px;
+    display: flex;
+    align-items: center;
 }

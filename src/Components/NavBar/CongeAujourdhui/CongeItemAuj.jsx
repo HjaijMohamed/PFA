@@ -15,12 +15,11 @@ function CongeItemAuj({item,index}) {
     
   return (
     <div className='conge-card'>
-        <div>#{index}</div>
-        <div><img src={urlimg} id='img' alt=''/></div>
-        <div>{personnel.nom} {personnel.prenom}</div>
-        <div>{item.cin}</div>
-        <div>{item.date_debut}</div> 
-        <div>{item.date_fin}</div> 
+                 <div id='cinpr'>{item.cin}</div>
+          <div ><img src={urlimg} id='imgpr' alt=''/></div>
+          <div id='nom-prenompr'>{personnel.nom} {personnel.prenom}</div>
+          <div id='date_debr'>{item.date_debut}</div>
+          <div id='date_finr'>{item.date_fin}</div>
     </div>
   )
 }

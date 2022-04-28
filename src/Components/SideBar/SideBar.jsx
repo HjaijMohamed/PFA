@@ -15,9 +15,9 @@ function SideBar() {
       <Link to="/gererConge" className='linkStyle'>
       <div className='options'>Gérer Congés</div>
       </Link>
-      <Link to="/gererAbsence" className='linkStyle'>
+      {/*<Link to="/gererAbsence" className='linkStyle'>
       <div className='options'>Gérer Absences</div>
-      </Link>
+  </Link>*/}
     </div>
   )
 }

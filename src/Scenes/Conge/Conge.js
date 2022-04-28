@@ -6,15 +6,11 @@ function Conge() {
     <div className='conge'>
         <div className='list-header'>Liste Congés</div>
         <div className='list-header2'>
-              <div>#Rang</div>
-              <div>Image </div>
-              <div>Nom Prenom </div>
-              <div>N° CIN</div>
-              
-              
-              <div>Date debut congé</div>
-              <div>Date fin congé </div>
-              
+        <div id='cinp'>N° CIN</div>
+              <div id='imgp'>IMAGE</div>
+              <div id='nom-prenomp'>NOM PRENOM</div>
+              <div id='date_debp'>DATE DEBUT </div>
+              <div id='date_finp'>DATE FIN </div>
             </div>
         <CongeConsultAuj />
     </div>

@@ -25,7 +25,23 @@ margin :7px 7px 25px 7px;
 box-shadow: #222f3e -5px 5px  10px;
 }
 
-.presence .list-header2>div {
-    width:180px;
+.presence #cinp{
+    width:90px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
 }
 
+.presence #imgp{
+    margin:2px 120px 0 10px;
+}
+.presence #nom-prenomp{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+.presence #heure_entreep {
+    width:190px;
+    display: flex;
+    align-items: center;
+}

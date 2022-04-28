@@ -52,7 +52,7 @@ function CongeItem({item,index}) {
         <div className='conge-item'  id= {index%2 ===0  ?'impairConge'  : 'pairConge'}>
             <div id='cin'>CIN: {item.cin}</div>
             <div id='img-icon'><img src={urlimg} id='img' alt=''/></div>
-            <div id='nom-prenom'>{personnel.prenom} {personnel.nom}</div>
+            <div id='nom-prenom'> {personnel.nom} {personnel.prenom}</div>
             <div id='date_debut'> {item.date_debut}</div>
             <div id='date_fin'>{item.date_fin}</div>
             <button div id ='btn-del' onClick={submit}>Supprimer</button>

@@ -60,7 +60,7 @@ function PersonnelItem({item,index}) {
         <div id='btn'>
         <div></div>
           <div id='btn-div'>
-          <Link className='linkStyle' to={urlModif}> <div className='btn-modify'>Modifier</div> </Link>
+          <Link className='linkStyle' to={urlModif}> <button className='btn-modify'>Modifier</button> </Link>
         {/*<div><Link className='linkStyle' to={urlSuprim}> <div className='btn-delete' >Supprimer</div></Link></div>*/}
         <button className='btn-delete'onClick={submit}>Supprimer</button>
         </div>

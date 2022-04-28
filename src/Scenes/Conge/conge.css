@@ -24,7 +24,29 @@ margin :7px 7px 25px 7px;
 box-shadow: #222f3e -5px 5px  10px;
 }
 
-.conge .list-header2>div {
-    width:160px;
+.conge #cinp{
+    width:90px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.conge #imgp{
+    margin:2px 130px 0 10px;
+}
+.conge #nom-prenomp{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+.conge #date_debp {
+    width:190px;
+    display: flex;
+    align-items: center;
+}
+.conge #date_finp {
+    width:190px;
+    display: flex;
+    align-items: center;
 }
 

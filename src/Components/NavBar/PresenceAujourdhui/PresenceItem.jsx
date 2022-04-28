@@ -16,11 +16,10 @@ function PresenceItem({item,index}) {
     return (
       
     <div className='presences-card'>
-          <div id='id'>#{index}</div>
-          <div><img src={urlimg} id='img' alt=''/></div>
-          <div>{personnel.nom} {personnel.prenom}</div>
-          <div id='cin'>{item.cin}</div>
-          <div id='heure_entree'>{item.heure_entree}</div>
+          <div id='cinpr'>{item.cin}</div>
+          <div ><img src={urlimg} id='imgpr' alt=''/></div>
+          <div id='nom-prenompr'>{personnel.nom} {personnel.prenom}</div>
+          <div id='heure_entreepr'>{item.heure_entree}</div>
     </div>
     
   )

@@ -8,10 +8,9 @@ function AbsenceItemAuj({item,index}) {
   return (
     <div className='absence-card'>
        
-        <div>#{index}</div>
-        <div><img src={urlimg} id='img' alt=''/></div>
-        <div>{item.nom} {item.prenom}</div>
-        <div>{item.cin}</div>
+       <div id='cinpr'>{item.cin}</div>
+          <div ><img src={urlimg} id='imgpr' alt=''/></div>
+          <div id='nom-prenompr'>{item.nom} {item.prenom}</div>
     </div>
   )
 }

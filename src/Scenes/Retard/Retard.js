@@ -6,12 +6,11 @@ function Retard() {
     <div className='retard'>
         <div className='list-header'>Liste Retards</div>
         <div className='list-header2'>
-              <div>#Rang</div>
-              <div>Image</div>
-              <div>Nom Prenom</div>
-              <div>N° CIN</div>
-              <div>Heure d'entrée </div>
-              <div>Date d'entrée </div>
+
+               <div id='cinp'>N° CIN</div>
+              <div id='imgp'>IMAGE</div>
+              <div id='nom-prenomp'>NOM PRENOM</div>
+              <div id='heure_entreep'>HEURE D'ENTREE  </div>
         </div>
         <RetardConsultAuj />
     </div>

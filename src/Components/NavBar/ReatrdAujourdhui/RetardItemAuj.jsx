@@ -14,12 +14,10 @@ function RetardItemAuj({item,index}) {
     
   return (
     <div className='retard-card'>
-          <div>#{index}</div>
-          <div><img src={urlimg} id='img' alt=''/></div>
-          <div>{personnel.nom} {personnel.prenom}</div>
-          <div>{item.cin}</div>
-          <div>{item.heure_entree}</div>
-          <div>{item.date_entree}</div> 
+          <div id='cinprt'>{item.cin}</div>
+          <div ><img src={urlimg} id='imgrt' alt=''/></div>
+          <div id='nom-prenomprt'>{personnel.nom} {personnel.prenom}</div>
+          <div id='heure_entreeprt'>{item.heure_entree}</div>
     </div>
   )
 }

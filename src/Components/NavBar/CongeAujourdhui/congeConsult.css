@@ -13,18 +13,43 @@
     
     
 }
-.conge-card > div{
-    width:160px;
-}
 
-.conge-card #img{
+.conge-card #imgpr{
     width:50px;
     height: 50px;
     border-radius: 50%;
     border: #222f3e solid 2px;
+    margin:2px 100px 0 0;
+    
 }
 
 .conge-card:hover{
     cursor: pointer;
     background-color: #54a0ff;
+}
+
+
+.conge-card #cinpr{
+    width:100px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+
+.conge-card #nom-prenompr{
+    width:200px;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+}
+.conge-card #date_debr {
+    width:190px;
+    display: flex;
+    align-items: center;
+}
+
+.conge-card #date_finr {
+    width:190px;
+    display: flex;
+    align-items: center;
 }
